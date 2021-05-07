@@ -1,9 +1,9 @@
 const randomNum1 = Math.floor(Math.random() * 100);
 const randomNum2 = Math.floor(Math.random() * 100);
-console.log(`${randomNum1} + ${randomNum2}`);
-var ans;
-function checkAnswer() {if(ans === randomNum1 + randomNum2) {
+var ans = prompt(`${randomNum1} + ${randomNum2}`);
+function checkAnswer() {if(ans === `${randomNum1 + randomNum2}`) {
 console.log('Correct!')
 } else {
 console.log('Wrong! You suck at math.')
 }}
+checkAnswer();
