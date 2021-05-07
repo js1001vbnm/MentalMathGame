@@ -4,6 +4,6 @@ var ans = prompt(`${randomNum1} + ${randomNum2}`);
 function checkAnswer() {if(ans === `${randomNum1 + randomNum2}`) {
 console.log('Correct!')
 } else {
-console.log('Wrong! You suck at math.')
+alert('Wrong! You suck at math.')
 }}
 checkAnswer();
